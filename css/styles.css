@@ -206,11 +206,23 @@ border-radius: 2px;
   color: var(--secondary-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-white);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 9px;
+}
 
 .mail:hover,
 .mail:focus,
 .phone:hover,
-.phone:focus,
+.phone:focus{
+  color: var(--accent-color);
+}
+
 .address:hover,
 .address:focus{
   color: var(--accent-color);
@@ -226,15 +238,7 @@ border-radius: 2px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--primary-white);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 9px;
-}
+
 ul {
   list-style: none;
 }
@@ -770,8 +774,8 @@ fill: var(--accent-color);
   transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: auto;
 }
-.portfofio-top-item:hover .portfolio-top-text,
-.portfofio-top-item:focus .portfolio-top-text{
+.portfolio-top-item:hover .portfolio-top-text,
+.portfolio-top-item:focus .portfolio-top-text{
 
   transform: translateY(0);
 }
